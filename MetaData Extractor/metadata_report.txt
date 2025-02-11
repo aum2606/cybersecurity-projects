@@ -1,0 +1,12 @@
+Image Metadata Analysis Report
+==============================
+Generated on: 2025-02-11 17:06:33
+Total images processed: 1
+
+Image 1 : test_image.jpg
+--------------------
+filename: test_image.jpg
+format: JPEG
+mode: RGB
+size: (100, 100)
+

@@ -1,0 +1,52 @@
+<!-- phishing_simulator.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secure Login - Educational Demo</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .login-box { width: 300px; padding: 20px; border: 1px solid #ccc; }
+        .disclaimer { color: red; margin-top: 20px; font-size: 0.8em; }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <h2>Company Portal Login (Simulation)</h2>
+        <form id="loginForm">
+            <p>Username: <input type="text" id="username" required></p>
+            <p>Password: <input type="password" id="password" required></p>
+            <button type="submit">Sign In</button>
+        </form>
+        <div id="result"></div>
+        <div class="disclaimer">
+            WARNING: Simulation only. Fake credentials will be saved locally for demonstration.<br>
+            NEVER enter real passwords.
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const credentials = {
+                username: document.getElementById('username').value,
+                password: document.getElementById('password').value
+            };
+
+            fetch('/capture', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(credentials),
+            })
+            .then(response => {
+                document.getElementById('result').innerHTML = 
+                    `<p style="color: green;">Simulated phishing attempt captured.<br>
+                    Check 'captured_credentials.txt' in server directory.</p>`;
+            })
+            .catch(error => {
+                console.error('Simulation error:', error);
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\coding\\cybersecurity\\Simple Encryption Decryption\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F329E83-8532-4949-A04B-CD1EEDE3F2CE}|Simple Encryption Decryption.vcxproj|D:\\coding\\cybersecurity\\Simple Encryption Decryption\\Simple Encryption Decryption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F329E83-8532-4949-A04B-CD1EEDE3F2CE}|Simple Encryption Decryption.vcxproj|solutionrelative:Simple Encryption Decryption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Simple Encryption Decryption.cpp",
+              "DocumentMoniker": "D:\\coding\\cybersecurity\\Simple Encryption Decryption\\Simple Encryption Decryption.cpp",
+              "RelativeDocumentMoniker": "Simple Encryption Decryption.cpp",
+              "ToolTip": "D:\\coding\\cybersecurity\\Simple Encryption Decryption\\Simple Encryption Decryption.cpp",
+              "RelativeToolTip": "Simple Encryption Decryption.cpp",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-08T11:19:49.033Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
